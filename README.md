@@ -119,7 +119,7 @@ pip install -r requirements.txt
 | 📦 UI (optional)       | `Streamlit` or `Jupyter Notebook` | User interaction or testing interface  |
 
 
-## ## 🛠️ System Requirements
+## 🛠️ System Requirements
 
 - **Make sure `ffmpeg` is installed on your system and accessible from the terminal.**
 
