@@ -119,6 +119,20 @@ pip install -r requirements.txt
 | 📦 UI (optional)       | `Streamlit` or `Jupyter Notebook` | User interaction or testing interface  |
 
 
+## ## 🛠️ System Requirements
+
+- **Make sure `ffmpeg` is installed on your system and accessible from the terminal.**
+
+  - ✅ [Download ffmpeg](https://ffmpeg.org/download.html)
+  - ✅ Add it to your system PATH
+
+**You can test if it's working by running:**
+
+```bash
+ffmpeg -version
+
+```
+
 # 📚 Dependency Breakdown for Offline AI Assistant
 
 This project relies on a set of powerful Python libraries for local language modeling, retrieval, document parsing, image/audio processing, and building an interactive offline assistant.
