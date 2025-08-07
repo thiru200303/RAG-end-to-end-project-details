@@ -368,23 +368,43 @@ This project relies on a set of powerful Python libraries for local language mod
 ## ✅ `requirements.txt`
 
 ```txt
-torch>=2.0.0
-transformers>=4.30.0
-sentence-transformers>=2.2.2
-faiss-cpu>=1.7.4
-pymupdf>=1.23.0
-pytesseract>=0.3.10
-Pillow>=9.5.0
-openai-whisper>=20231117
-opencv-python>=4.8.0
-matplotlib>=3.7.1
-scikit-learn>=1.3.0
-python-docx>=0.8.11
-pdfplumber>=0.10.2
-streamlit>=1.28.0
-requests>=2.31.0
-sentencepiece>=0.1.99
-TTS>=0.20.2
-numpy>=1.25.0
-python-dotenv>=1.0.0
+# Core LLM & Embedding
+transformers
+sentence-transformers
+faiss-cpu
+
+# PDF/Text parsing
+PyMuPDF
+python-docx
+
+# Multimodal AI
+Pillow
+torch
+torchaudio
+opencv-python
+numpy
+matplotlib
+
+# Whisper (audio transcription)
+whisper
+
+# OCR (Image to text, optional)
+pytesseract
+
+# TTS (optional)
+gTTS
+
+# Keyword Extraction
+keybert
+
+# Utility
+scikit-learn
+tqdm
+beautifulsoup4
+requests
+
+# For FastAPI (optional future API)
+fastapi
+uvicorn
+
 ```
